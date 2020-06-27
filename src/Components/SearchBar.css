@@ -1,0 +1,35 @@
+.form{
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
+}
+.SearchBar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.07);
+    background-color: #63b7af;
+}
+.SearchBar__input{
+    width: 70vw;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: rgb(236, 231, 231);
+    border-radius: 100px;
+    transition: all .2s;
+}
+.SearchBar__input:focus{
+    outline: none;
+    transform: scale(1.01);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.04);
+}
+.SearchBar__text{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+

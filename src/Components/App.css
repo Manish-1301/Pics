@@ -1,0 +1,15 @@
+*,*::before,*::after{
+    margin:0;
+    border: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right bottom,#abe9e3d2,#d4f3efd5);
+    min-height: 100vh;
+}
