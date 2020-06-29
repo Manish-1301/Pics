@@ -17,7 +17,7 @@ class App extends React.Component{
                 query: term,
             },
             headers: {
-                Authorization: 'Client-ID ljYKqmbjJ6cV-wumI4HWvgRnAP6Mkt53ghRzMxj3I6k'
+                Authorization: 'Client-ID YOUR_API_KEY'
             }
         });
         this.setState({images: response.data.results})
