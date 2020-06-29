@@ -24,7 +24,7 @@ class App extends React.Component{
                 page: this.state.currentpage
             },
             headers: {
-                Authorization: 'Client-ID ljYKqmbjJ6cV-wumI4HWvgRnAP6Mkt53ghRzMxj3I6k'
+                Authorization: 'Client-ID YOUR_API_KEY'
             }
         });
         //console.log(response);
